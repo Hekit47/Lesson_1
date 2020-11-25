@@ -144,7 +144,7 @@ public class lesson1 {
                 }
             }
         } else {
-            System.out.println("Год не високосный");
+            System.out.println("Год Не високосный");
         }
     }
 
