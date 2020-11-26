@@ -18,7 +18,7 @@ public class lesson1 {
         // создаем и инициализируем символьную переменную
         char bukva = 'h';
         // Переход к задаче 3. прописываем метод
-        zadacha();
+        calculateExpression();
         // Переход к задаче 4. вывод результата задачи
         System.out.println(check());
         // Переход к задаче 5. Проверка числа
@@ -31,8 +31,8 @@ public class lesson1 {
         year();
     }
 
-// №3
-    public static void zadacha(){
+    // №3
+    public static void calculateExpression(){
         //cоздаем и инициализируем целочисленные переменные
         int a = 1, b = 2, c = 3, d = 4;
         System.out.println("Задача №3");
@@ -48,7 +48,7 @@ public class lesson1 {
         System.out.println("Выражение a*(b+(c/d))=" + a + "*" + "(" + b + "+(" + c + "/" + d + ")=" + (a * (b + (c / d))));
     }
 
-// №4
+    // №4
     public static boolean check() {
         // объявляем задание под номером 4
         System.out.println("Задача №4");
@@ -75,7 +75,7 @@ public class lesson1 {
         }
     }
 
-// №5
+    // №5
     private static void positivech(){
         // объявляем задание под номером 5
         System.out.println("Задача №5");
@@ -86,13 +86,13 @@ public class lesson1 {
         int a = scanner.nextInt();
         // задаем условия и ответ программы
         if(a >= 0) {
-                System.out.println("Введенное число положительное");
+            System.out.println("Введенное число положительное");
         } else{
-                System.out.println("Введенное число отрицательное");
+            System.out.println("Введенное число отрицательное");
         }
     }
 
-// №6
+    // №6
     public static boolean positivcheckfalse(){
         System.out.println("Задача №6");
         System.out.println("Введите положительное или отрицательное число");
@@ -107,7 +107,7 @@ public class lesson1 {
         }
     }
 
-// №7
+    // №7
     public static void privetName(){
         System.out.println("Задача №7");
         System.out.println("Как тебя зовут?");
@@ -118,7 +118,7 @@ public class lesson1 {
         System.out.println("Привет, " + name);
     }
 
-//№8*
+    //№8*
     public static void year() {
         System.out.println("Задача №8*");
         // Спрашиваем у пользователя какой год
@@ -144,8 +144,9 @@ public class lesson1 {
                 }
             }
         } else {
-            System.out.println("Год не високосный");
+            System.out.println("Год Не високосный");
         }
     }
+
 
 }
